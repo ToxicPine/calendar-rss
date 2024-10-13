@@ -1,5 +1,6 @@
 {
   "name": "calendar-rss",
+  "type": "module",
   "version": "1.0.0",
   "description": "A Service That Serves an RSS Feed of Your Calendar Events",
   "repository": "https://github.com/ToxicPine/calendar-rss.git",
@@ -10,10 +11,10 @@
     "typescript": "^4.7.3"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
     "axios": "^1.7.7",
-    "dotenv": "^16.4.5",
     "ical.js": "^2.1.0",
-    "xmlbuilder2": "^3.1.1"
+    "xmlbuilder": "^15.1.1"
   },
   "scripts": {
     "dev": "vercel dev",
